@@ -1,0 +1,7 @@
+@import "https://cdn.syncfusion.com/ej2/17.3.27/material.css";
+@media (max-width: 767px) {
+  /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+  .body-content {
+    padding-top: 50px;
+  }
+}

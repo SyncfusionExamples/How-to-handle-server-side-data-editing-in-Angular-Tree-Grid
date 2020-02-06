@@ -3,6 +3,8 @@
 Learn how you can handle server-side data editing in the Syncfusion Angular TreeGrid control.
 This example explains data binding using a remote call. You’ll see how to insert, update, and remove a record and delete multiple records using the Syncfusion DataManager. An ASP.NET Core web application with Angular as its front-end is used to explain these CRUD operations in the Angular TreeGrid.
 
+Watch the video now: https://www.syncfusion.com/tutorial-videos/angular/treegrid?title=how-to-handle-server-side-data-editing-in-angular-treegrid
+
 Documentation: https://ej2.syncfusion.com/angular/documentation/treegrid/edit/#url-adaptor 
 
 

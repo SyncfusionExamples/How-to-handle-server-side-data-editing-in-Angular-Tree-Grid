@@ -1,10 +1,13 @@
 import { Component, Inject, OnInit } from '@angular/core';
-import { EditSettingsModel, ToolbarItems, SelectionSettingsModel } from '@syncfusion/ej2-angular-treegrid';
+import { CommonModule } from '@angular/common';
+import { EditSettingsModel, ToolbarItems, SelectionSettingsModel, TreeGridModule } from '@syncfusion/ej2-angular-treegrid';
 import { DataManager, UrlAdaptor } from '@syncfusion/ej2-data';
 
 @Component({
   selector: 'app-fetch-data-component',
-  templateUrl: './fetch-data.component.html'
+  templateUrl: './fetch-data.component.html',
+  standalone: true,
+  imports: [CommonModule, TreeGridModule]
 })
 export class FetchDataComponent {
 
